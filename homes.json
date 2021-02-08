@@ -1,0 +1,77 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Royal Style Mansion, Caesarea, IL, Israel",
+          "price": "257 728 017",
+          "details": "5 Bedrooms, 3 Bathrooms, 102 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/1.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "90 Jule Pond Drive Southampton, USA",
+          "price": "145 000 000",
+          "details": "4 Bedrooms, 3 Bathrooms, 112 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/2.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Like No Other Manalapan, FL, USA",
+          "price": "125 350 000",
+          "details": "6 Bedrooms, 5 Bathrooms, 95 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/3.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Pacific Coast Highway, Malibu, USA",
+          "price": "98 500 000",
+          "details": "5 Bedrooms, 5 Bathrooms, 80 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/4.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Rancho Santa, USA",
+          "price": "150 000 000",
+          "details": "7 Bedrooms, 6 Bathrooms, 117 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/5.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Extraordinary Prestige House",
+          "price": "125 750 000",
+          "details": "7 Bedrooms, 5 Bathrooms, 125 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/6.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Other Geneve, Switzerland",
+          "price": "140 500 320",
+          "details": "5 Bedrooms, 4 Bathrooms, 105 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/7.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Cannon Point, FL, USA",
+          "price": "75 000 000",
+          "details": "3 Bedrooms, 2 Bathrooms, 72 Sqt Ft",
+          "image": { "fields": { "file": { "url": "./assets/8.jpg" } } }
+        }
+      }
+    ]
+  }
+  

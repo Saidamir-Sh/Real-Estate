@@ -1,0 +1,24 @@
+.sell-container {
+    width: 100%;
+    padding-bottom: 4em;
+}
+.sell__page {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.page__img {
+    width: 45%;
+}
+.page__img img {
+    width: 100%;
+}
+.page__form {
+    width: 50%;
+    margin-top: 5em;
+}
+.page__form h5 {
+    font-weight: 400;
+    margin: 0em;
+}

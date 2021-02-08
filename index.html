@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--CSS-->
+    <link href="./styles/main.css" rel="stylesheet">
+    <title>RealEstate</title>
+  </head>
+  <body>
+      <header>
+      <!-- Just an image -->
+    <nav class="navbar nav-cont">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="./assets/logo.png" alt="" width="70" height="60"><span>Blue Sky Realty</span>
+            </a>
+            <!--LINKS-->
+            <ul class="nav-links">
+                <li><a href="#buy">Buy</a></li>
+                <li><a href="#sell">Sell</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--HOME-->
+    <!--<div class="home">
+        <h1>Find Your Dream Home</h1>
+        <p>Apartments, Houses, Mansions</p>
+    </div> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="home">
+                <h1>Buy & Sell Property Here</h1>
+                <p>Apartments, Houses, Mansions</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="home-1">
+                <h1>Welcome To Your New Home</h1>
+                <p>Don't wait to buy real estate, buy real estate and wait</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="home-2">
+                <h1>Find Your Dream Home</h1>
+                <p>You are not buying a house, you are buying lifestyle</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!--Buy Section-->
+    <div id="buy" class="buycont">
+        <div class="head__items">
+            <p>See the last new offers</p>
+        </div>
+        <div class="card__container">
+                <!--CARD-->
+    <!--        <div class="card" style="width: 18rem;">
+                <img src="./assets/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Royal Style Mansion, Caesarea, IL, Israel</h5>
+                </div>
+                <div class="card__p ">
+                  <p class="price">$ 145 000 000</p>
+                  <p class="description">4 Bedrooms, 3 Bathrooms, 112 Sqt Ft</p>
+                </div>
+                <div class="card-body">
+                  <a href="" class="btn btn-primary infobtn">See details</a>
+                </div>
+            </div>  -->
+            <!--END OF THE CARD-->
+        </div>
+        <!--DETAILS window-->
+        <div class="details-window">
+           <div class="window">
+                 <div class="window__img">
+                    <img src="./assets/1.jpg" alt="House Image">
+                </div>
+                <div class="window__text">
+                    <i class="fas fa-times closeBtn"></i>
+                    <h5 class="window__title">Royal Style Mansion, Caesarea, IL, Israel</h5>
+                    <p class="window__price">$ 145 000 000</p>
+                    <p class="window__details">4 Bedrooms, 3 Bathrooms, 112 Sqt Ft</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In nesciunt repellat blanditiis aperiam. Laudantium ipsum dolor sit amet consectetur</p>
+                    <div class="window__contact">
+                        <i class="fas fa-map-marker-alt"><p>CA, United States</p></i>
+                        <i class="fas fa-phone-alt"><p>+1 111 222 333</p></i>
+                    </div>
+                </div> 
+           </div>
+        </div>
+    </div>
+
+    <!--SEll SECTION-->
+    <div id="sell" class="sell-container">
+        <div class="sell__page">
+            <div class="page__img">
+                <img src="./assets/sell.png">
+            </div>
+            <div class="page__form">
+                <form class="row g-3">
+                    <h5>Become a Seller</h5>
+                    <div class="col-md-4">
+                      <label for="validationServer01" class="form-label">First name</label>
+                      <input type="text" class="form-control" id="validationServer01"  required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationServer02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationServer02"  required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <!--<label for="validationServerUsername" class="form-label">Username</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                        <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>-->
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationServer03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                      <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationServer04" class="form-label">State</label>
+                      <select class="form-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                        <option selected disabled value=""></option>
+                        <option>New York</option>
+                        <option>Florida</option>
+                        <option>Texas</option>
+                        <option>Washington</option>
+                        <option>California</option>
+                      </select>
+                      <div id="validationServer04Feedback" class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationServer05" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                      <div id="validationServer05Feedback" class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                          Agree to terms and conditions
+                        </label>
+                        <div id="invalidCheck3Feedback" class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT SECTION-->
+    <div class="about-container" id="about">
+        <div class="about__page">
+            <div class="about__background">
+                <div class="about__logo">
+                    <img src="./assets/logo.png" alt="" width="70" height="60"><span>Blue Sky Realty</span>
+                </div>
+            </div>
+            <div class="about__profile">
+                <div>
+                    <h4>We do things differently</h4>
+                    <p>When it comes to selling, renting or buying property in Tenerife, working with the right company can save you weeks of stress and headaches.
+                    Second Home Tenerife is a pioneering estate agent with over 25 years’ experience in upmarket areas such as Costa Adeje, El Duque, La Caleta and Palm Mar.  
+                    We belong to a group that manages luxury hotel properties, restaurants and a sportclub. This close relation between real estate and hotel business makes us a very stable partner for you.</p>
+                    <h4>Your property and us  - the perfect match</h4>
+                    <p>If you’re looking to buy, sell or rent a Tenerife property by the beach, on a golf course or close to the south coast shops, restaurants and nightlife, contact us now. We’re 100% confident we have the perfect match!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTACT US FORM-->
+    <div class="contact-contain" id="contact">
+        <div class="contact__page">
+            <div class="contact__img">
+                <img src="./assets/about.png">
+            </div>
+            <div class="contact__form">
+                <div class="container">  
+                    <form id="contact" action="" method="post">
+                      <h3>Quick Contact</h3>
+                      <h4>Contact us today, and get reply with in 24 hours!</h4>
+                      <fieldset>
+                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                      </fieldset>
+                      <fieldset>
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                      </fieldset>
+                      <fieldset>
+                        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                      </fieldset>
+                      <fieldset>
+                        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                      </fieldset>
+                      <fieldset>
+                        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                      </fieldset>
+                      <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                      </fieldset>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error sequi deleniti cupiditate consectetur alias, dolor quibusdam ratione consequuntur, dolore tempore tempora ea provident repudiandae, quos ad quo fugit ut ducimus!</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#buy">Buy</a></li>
+                <li><a href="#sell">Sell</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+           <a href="#">Blue Sky Realty</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <!--INDEX JS-->
+    <script src="./index.js" defer></script>
+  </body>
+</html>
+
+<!--
+ <form>
+                    <div class="personal">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="text" name="surname" placeholder="Surname" required>
+                    </div>
+                    <div class="contact">
+                        <input type="tel" placeholder="Phone Number" name="phone" required>
+                        <input type="email" placeholder="Email" name="email" required>
+                    </div>
+                    <div class="adress">
+                        <input type="text" name="country" placeholder="Country" required>
+                        <input type="text" name="state" placeholder="State" required>
+                        <input type="text" name="zipcode" placeholder="Zip" required>
+                    </div>
+                </form>
+
+-->

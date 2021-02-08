@@ -1,0 +1,56 @@
+
+/*-/-/-/-/-/-/-/ CARD CONTAINER -/-/-/-/-/-/-/-/*/
+.buycont {
+    width: 100%;
+    height: auto;
+    padding: 5em 0em 5em 0em;
+    position: relative;
+}
+.card__container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.card__box {
+    margin-bottom: 1em;
+}
+.head__items {
+    width: 90%;
+    margin: 0 auto;
+}
+.card__p p {
+    font-size: 12px;
+}
+.card-body h5 {
+    font-size: 16px;
+}
+.card-body p,
+.card-body a {
+    font-size: 14px;
+}
+.card-body,
+.card__p {
+    padding: 5px;
+    line-height: 5px;
+}
+.card-body button {
+    font-size: 12px;
+    padding: 5px;
+}
+/* typography */
+.price {
+    font-weight: 700;
+}
+.description {
+    color: #4b4b4b;
+}
+.btn {
+    background-color: rgb(20, 17, 59);
+    border: none;
+    color: #fff;
+}
+.btn:hover {
+    background-color: rgb(48, 40, 148);
+}
